@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+<table width=100% border="0" cellspacing="0" cellpadding="0">
+    <tr>
+    <head>
+      <canvas id="myCanvas" width="1600" height="4300" style="border:0px solid #c3c3c3;">
+        
+</canvas> 
+        
+    
+
+<!--        BUTTON COLOR AND LOCATION -->
+        <style> button {
+            color:darkseagreen; margin-left: 0px; margin-top: 470px;
+      }
+        </style>
+        
+      
+        <script type="text/javascript">
+            //Heading Title
+    var c = document.getElementById("myCanvas");
+     var image=c.getContext("2d");
+            
+    var icon=new Image();    
+    icon.src='file://localhost/Users/loaner/Desktop/icon.jpeg'
+    icon.onload = function () {    
+    image.drawImage(icon,1200,10);
+     }  
+            
+      image.fillStyle="#FFAC59";
+     image.font = "150px Della Respira";
+     image.fillText("SAVE  DAVE",250,120);
+            
+            image.fillStyle="#001433";
+            image.fillRect(50,150,1400,750);
+            
+    //PICTURES
+     var group1=new Image();    
+    group1.src='file://localhost/Users/loaner/Desktop/group1.jpg'
+    group1.onload = function () {    
+    image.drawImage(group1,50,1525);
+     }    
+    
+     var group2=new Image();    
+    group2.src='file://localhost/Users/loaner/Desktop/group2.jpg'
+    group2.onload = function () {    
+    image.drawImage(group2,550,1500);
+     } 
+    
+    var group3=new Image();    
+    group3.src='file://localhost/Users/loaner/Desktop/group3.jpg'
+    group3.onload = function () {    
+    image.drawImage(group3,1200,1525);
+     } 
+            
+     var legina=new Image();    
+    legina.src='file://localhost/Users/loaner/Desktop/legina.jpg'
+    legina.onload = function () {    
+    image.drawImage(legina,20,1925);
+     } 
+    var jasmine=new Image();    
+    jasmine.src='file://localhost/Users/loaner/Desktop/jasmine.jpg'
+    jasmine.onload = function () {    
+    image.drawImage(jasmine,20,2265);
+     }   
+    
+    var maitri=new Image();    
+    maitri.src='file://localhost/Users/loaner/Desktop/maitri.jpg'
+    maitri.onload = function () {    
+    image.drawImage(maitri,20,2640);
+     }
+    
+     var lindsey=new Image();    
+    lindsey.src='file://localhost/Users/loaner/Desktop/lindsey.jpg'
+    lindsey.onload = function () {    
+    image.drawImage(lindsey,20,3050);
+     }  
+    
+    var sanjana=new Image();    
+    sanjana.src='file://localhost/Users/loaner/Desktop/sanjana.jpg'
+    sanjana.onload = function () {    
+    image.drawImage(sanjana,20,3430);
+     }  
+    
+     var gwc=new Image();    
+    gwc.src='file://localhost/Users/loaner/Desktop/gwclogo.png'
+   gwc.onload = function () {    
+    image.drawImage(gwc,50,3750);
+     }  
+            
+            
+            
+            
+            
+     image.fillStyle="#001433";
+     image.font = "70px Courier New";     
+     image.fillText("About Save Dave",50,1010);
+     image.font = "30px Courier New";
+      //image.fillText("We want to spread awareness about environmental problems in a fun, engaging medium. ", 50, 1070);
+     image.fillText("We wanted to spread awareness about environmental problems in a fun, engaging medium. ", 50, 1070);
+     image.fillText("Being in California, the drought is a very prevalent issue at the moment, so we", 50, 1120);
+     image.fillText("decided to create a site that would inform people about the issue and include simple", 50, 1170);
+     image.fillText("ways that they could help fight it. As we discussed the idea, we decided that we also ", 50, 1220);
+     image.fillText("wanted this site to encompass a wide variety of environmental issues around the world.", 50, 1270);
+     image.fillText("Through our game, Save Dave, we hope to educate players about pressing issues in a", 50, 1320);
+    image.fillText("fun and interactive way.", 50, 1370);
+     
+            
+            
+            
+     image.fillStyle="#001433";
+     image.font = "70px Courier New";      
+     image.fillText("About Us",50,1500);
+    
+    //Legina 
+     image.font = "40px Courier New";
+     image.fillText("Legina Chen",350,1950);
+     image.font = "20px Courier New";
+     image.fillText("Legina Chen is a 16 year old junior who currently attends George Washington High School and resides", 350, 2000);
+     image.fillText("in San Francisco,California. She developed her passion for coding when she took AP Computer Science", 350, 2050);
+     image.fillText("at school. From there, she became involved in programs such as Girls Who Code and Robotics Club", 350, 2100);
+     image.fillText("Legina worked on Save Dave because she wanted to do graphics and game development in languages she had", 350, 2150);
+     image.fillText("no prior experience in.", 350, 2200);
+     
+     //Jasmine
+     image.font = "40px Courier New";
+     image.fillText("Jasmine Gupta",350,2300);
+     image.font = "20px Courier New";
+     image.fillText("Jasmine Gupta is a 15 year old high school junior in San Jose,CA. She was introduced to CS through her ", 350, 2350);
+            image.fillText("middle school and high school robotics teams. She then took AP Computer Science at school; which",350,2400);
+            image.fillText("prompted her to get involved with Girls Who Code and Made with Code, a committee dedicated",350,2450);
+            image.fillText("to teaching teenage girls about coding. Jasmine wanted to work on Save Dave because she wanted to",350,2500);
+            image.fillText("further develop her CS skills and use them to combat environmental issues.",350,2550);
+            
+           //Maitri 
+    image.font = "40px Courier New";
+    image.fillText("Maitri Shah",350,2650);
+    image.font = "20px Courier New";
+    image.fillText("Maitri Shah is a senior at Amador Valley High School in Pleasanton, CA. Her AP Computer Science class",350,2700);
+            image.fillText("jumpstarted her interest in CS. Her computer science class has gotten her involved in many",350,2750);
+            image.fillText("CS related activities, some being Girls Who Code and ACE Coding, a club at her school that",350,2800);
+            image.fillText("teaches middle schoolers how to code. In the future, Maitri hopes to use computer science to help",350,2850);
+            image.fillText("educate people about overlooked issues in a fun and interactive way, which is one of the reasons",350,2900);
+            image.fillText("she chose to work on Save Dave.",350,2950);
+            
+         
+           //Lindsey
+    image.font = "40px Courier New";
+    image.fillText("Lindsey Wiser",350,3050);
+    image.font = "20px Courier New";
+    image.fillText("Lindsey Wiser is a 17 year old high school senior in Albany, CA. Growing up she was fascinated",350,3100);
+        image.fillText("by science, but as she began thinking about potential careers she realized that her interests in topics",350,3150);
+        image.fillText("such as astronomy, travel, and music, would not easily lead to careers on their own, so through computer" ,350,3200);
+        image.fillText("science Lindsey has discovered an interest that can easily be applied to many others. She chose to work",350,3250);
+        image.fillText("on Save Dave because of a desire to learn graphics, as well as to educate others on environmental issues",350,3300);
+        image.fillText("that are often overlooked or ignored.",350,3350);
+            
+    //Sanjana Gundala
+     image.font = "40px Courier New";
+    image.fillText("Sanjana Gundala",350,3450);
+    image.font = "20px Courier New"; 
+      image.fillText("Sanjana Gundala is a 15 year old junior at Mission San Jose High School in Fremont, CA. She first became" , 350 ,3500);
+        image.fillText("interested in Computer Science when she took the AP computer science class at her school. After that she" ,350,3550);
+        image.fillText("took courses in game design and Java programing, which led her to join the Girls Who Code program.",350,3600);
+        image.fillText("Sanjana wanted to work on Save Dave because she enjoys working on game design and animation and she",350,3650);
+        image.fillText("wanted to educate people on environmental issues and how they can help out.",350,3700);
+            
+     image.fillStyle="#000000";
+        image.font = "25px Courier New"; 
+         image.fillText("Girls Who Code's vision is to reach gender parity in computing fields. They believe this is essential" , 50 ,3900);
+         image.fillText("to ensure the economic prosperity of women, families, and communities across the globe, and to equip" , 50 ,3950);
+         image.fillText("citizens with the 21st century tools for innovation and social change. They believe that more girls" , 50 ,4000);
+         image.fillText("exposed to computer science at a young age will lead to more women working in the technology", 50,4050);
+         image.fillText("and engineering fields. The Save Dave team is from the 2015 advanced pilot summer program at VMware", 50,4100);
+         image.fillText("in Palo Alto, California. ", 50,4150);
+        image.fillText("https://girlswhocode.com/ ", 50,4200);
+ 
+            
+        
+
+            
+            
+    
+    
+        
+// Popup window code
+
+//DOMESTICA POP UP            
+function newPopupOne() {
+var popupWindow = window.open(
+'file:///Users/loaner/Desktop/ToDomestica.html  ','','height=600,width=800,left=10,top=10,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no,status=yes')
+//popupWindow.document.write("Welcome to Domestica!"); 
+popupWindow.document.close();
+                                                   
+}
+            
+//OCEANA POP UP            
+function newPopupTwo() {
+var popupWindow = window.open(
+'file:///Users/loaner/Desktop/ToOceana.html  ','','height=600,width=800,left=10,top=10,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no,status=yes')
+//popupWindow.document.write("Welcome to Oceana!");
+popupWindow.document.close();
+                                                   
+}
+            
+//CORPORATION ISLAND 
+function newPopupThree() {
+var popupWindow = window.open(
+'file:///Users/loaner/Desktop/ToCorporationIsland.html  ','','height=600,width=800,left=10,top=10,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no,status=yes')
+//popupWindow.document.write("Welcome to Corporation Island!");
+popupWindow.document.close();
+                                                   
+}
+
+//URBANA
+function newPopupFour() {
+var popupWindow = window.open(
+'file:///Users/loaner/Desktop/ToUrbana.html  ','','height=600,width=800,left=10,top=10,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no,status=yes')
+//popupWindow.document.write("Welcome to Urbana!");
+popupWindow.document.close();
+                                                   
+}
+            
+//LIFELAND
+function newPopupFive() {
+var popupWindow = window.open(
+'file:///Users/loaner/Desktop/ToLifeLand.html  ','','height=600,width=800,left=10,top=10,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no,status=yes')
+//popupWindow.document.write("Welcome to Lifeland!");
+popupWindow.document.close();
+                                                   
+}
+            
+
+</script> 
+    </head>
+    
+    <body bgcolor="#C2EBFF"> 
+        
+        
+        
+        <!--<button type = "button" onclick="alert('hello world!')" >Click Me!</button> -->
+        <!--<input type = "button" class = "button1" value = "Button 1" /> -->
+        <!--THE DIVS GO 1 AT THE BOTTOM AND SUBSEQUENT ON THE TOP  -->
+<!--        image for the earth background-->
+        <div id = 'd1' style = "position: absolute; top:200px;left:200px; z-index:1">
+            <img src = "FINALEARTH.jpg"> 
+        </div>
+
+<!--        this is what happens when button is clicked-->
+        <div id = 'd2' style = "position: absolute; top:200px; left:325px; z-index:2"> 
+            <button type = "button" onclick="alert('Hi! My name is Dave and this is my planet, Planet Eco. My people have used up many of _____resources, and damaged the environment, much like at your home planet, Earth. But, with your help we can make a difference. Click on a region to get started.')" >Instructions</button>
+        </div>
+        
+<!--        dave-->
+        <div id = 'd3' style = "position: absolute; top:690px; left:300px; z-index:3">
+            <img src = "FINALDAVE.jpg"> 
+        </div>
+
+<!--        the house is button-->
+        <div id = 'd1' style = "position: absolute; left:405px; top:270px; z-index: 4">
+            <button><a href="JavaScript:newPopupOne('http://www.google.com');" style = "position: absolute;left:160px;top:200px; color:gray;">             <img src = "house.jpg"/></a></button> 
+        </div>
+        
+<!--        the whale is button-->
+        
+        <div id = 'd1' style = "position: absolute; left:530px; top:140px; z-index: 4">
+            <button><a href="JavaScript:newPopupTwo('http://www.google.com');" style = "position: absolute;left:160px;top:200px; color:gray;">             <img src = "FINALWHALE.jpg"/></a></button> 
+        </div>
+
+
+        <!--        the smokestack is a button        -->
+        
+          <div id = 'd2' style = "position: absolute; left:625px; top:210px; z-index: 4">
+            <button><a href="JavaScript:newPopupThree('http://www.google.com');" style = "position: absolute;left:160px;top:200px; color:gray;">             <img src = "smokestack.jpg"/></a></button> 
+        </div>
+
+
+        <!--        the cityscape is a button-->
+
+        <div id = 'd3' style = "position: absolute; left:550px; top:480px; z-index: 4">
+            <button><a href="JavaScript:newPopupFour('http://www.google.com');" style = "position: absolute;left:160px;top:200px; color:gray;">             <img src = "CITY.jpg"/></a></button> 
+        </div>
+
+<!--        the tree is a button -->
+        
+        <div id = 'd3' style = "position: absolute; left:530px; top:260px; z-index: 4">
+            <button><a href="JavaScript:newPopupFive('http://www.google.com');" style = "position: absolute;left:160px;top:200px; color:gray;">             <img src = "tree.jpg"/></a></button> 
+        </div>
+        
+        
+        <div class = "arrow bottom right"> </div>
+        
+        
+<!--        //testing-->
+        <div id="blanket" style="display:none"></div>
+<div id="popUpDiv" style="display:none">
+
+
+       
+        <style>#blanket {
+background-color:#111;
+opacity: 0.65;
+*background:none;
+position:absolute;
+z-index: 9001;
+top:0px;
+left:0px;
+width:100%;
+}
+
+#popUpDiv {
+position:absolute;
+background:url(pop-back.jpg) no-repeat;
+width:400px;
+height:400px;
+border:5px solid #000;
+z-index: 9002;
+}</style>
+        
+        
+        
+        
+       
+      
+    </body>
+        </tr>
+    </table>
+
+</html>
